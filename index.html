@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/read-excel-file@4.1.0/bundle/read-excel-file.min.js"></script>
+  </head>
+  <body>
+    <div
+      style="
+        margin: auto;
+        width: 50%;
+        margin-top: 80px;
+        padding: 30px;
+        background-color: #333;
+        color: rgba(255, 255, 255, 0.576);
+      "
+    >
+      <h2>Excel to JSON Conversion</h2>
+      <input type="file" id="input" />
+      <br /><br />
+      <textarea
+        name="json-data"
+        id="json-data"
+        rows="25"
+        style="width: 100%; color: olivedrab"
+      ></textarea>
+      <br /><br />
+      <button id="dl-json">Download JSON Files</button>
+    </div>
+
+    <script src="files.js"></script>
+  </body>
+</html>
